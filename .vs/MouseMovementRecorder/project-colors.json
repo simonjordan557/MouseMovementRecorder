@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0e8d8bc6-f328-45cd-90f0-61ef477100de": {
+      "ProjectGuid": "0e8d8bc6-f328-45cd-90f0-61ef477100de",
+      "DisplayName": "MouseMovementRecorder",
+      "ColorIndex": 0
+    },
+    "937f8370-8e1f-4d47-96d2-388d7a4bd588": {
+      "ProjectGuid": "937f8370-8e1f-4d47-96d2-388d7a4bd588",
+      "DisplayName": "MouseMovementRecorderLibrary",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
