@@ -19,7 +19,6 @@ namespace MouseMovementRecorderLibrary
         public ScreenPosition this[int index]
         {
             get { return this.course[index]; }
-            
         }
     }
 }

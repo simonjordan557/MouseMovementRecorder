@@ -1,0 +1,12 @@
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\bin\Release\net6.0\MouseMovementRecorderLibrary.deps.json
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\bin\Release\net6.0\MouseMovementRecorderLibrary.dll
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\bin\Release\net6.0\ref\MouseMovementRecorderLibrary.dll
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\bin\Release\net6.0\MouseMovementRecorderLibrary.pdb
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\obj\Release\net6.0\MouseMovementRecorderLibrary.GeneratedMSBuildEditorConfig.editorconfig
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\obj\Release\net6.0\MouseMovementRecorderLibrary.AssemblyInfoInputs.cache
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\obj\Release\net6.0\MouseMovementRecorderLibrary.AssemblyInfo.cs
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\obj\Release\net6.0\MouseMovementRecorderLibrary.csproj.CoreCompileInputs.cache
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\obj\Release\net6.0\MouseMovementRecorderLibrary.dll
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\obj\Release\net6.0\ref\MouseMovementRecorderLibrary.dll
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\obj\Release\net6.0\MouseMovementRecorderLibrary.pdb
+L:\Backup 19.1.18\Gamedev\Visual Studio 2019\My Programs\MouseMovementRecorder\MouseMovementRecorderLibrary\obj\Release\net6.0\MouseMovementRecorderLibrary.csproj.AssemblyReference.cache

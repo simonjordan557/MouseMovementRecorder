@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GregsStack.InputSimulatorStandard;
+using GregsStack.InputSimulatorStandard.Native;
 
 namespace MouseMovementRecorderLibrary
 {
@@ -19,6 +20,19 @@ namespace MouseMovementRecorderLibrary
         private double ConvertToY(double rawY)
         {
             return (rawY * 65535d / 1079d);
+        }
+
+        public void Play(MovementRecord recording)
+        {
+            for (int i = 0; i < recording.course.Count; i++)
+            {
+                // Console.WriteLine($"X: {recording[i].xpos}, Y: {recording[i].ypos}");
+                inputSimulator.Mouse.MoveMouseTo(ConvertToX(recording[i].xpos), ConvertToY(recording[i].ypos));
+                if (recording[i].leftButtonClicked) {
+                    inputSimulator.Mouse.LeftButtonClick();
+                }
+                Thread.Sleep(8);
+            }
         }
 
         /// <summary>
@@ -48,7 +62,7 @@ namespace MouseMovementRecorderLibrary
             {
                 Console.Clear();
                 Console.WriteLine($"RECORDING! {Math.Ceiling(recordTimer / 1000d)} SECONDS REMAINING");
-                course.Add(new ScreenPosition(inputSimulator.Mouse.Position.X, inputSimulator.Mouse.Position.Y));
+                course.Add(new ScreenPosition(inputSimulator.Mouse.Position.X, inputSimulator.Mouse.Position.Y, inputSimulator.InputDeviceState.IsKeyDown(VirtualKeyCode.LBUTTON)));
                 Thread.Sleep(8);
                 recordTimer -= 16;
             }
@@ -58,16 +72,6 @@ namespace MouseMovementRecorderLibrary
             Console.WriteLine("Mouse Movement Saved!");
             Thread.Sleep(2500);
             return new MovementRecord(course);
-        }
-
-        public void Play(MovementRecord recording)
-        {
-            for (int i = 0; i < recording.course.Count; i++)
-            {
-                Console.WriteLine($"X: {recording[i].xpos}, Y: {recording[i].ypos}");
-                inputSimulator.Mouse.MoveMouseTo(ConvertToX(recording[i].xpos), ConvertToY(recording[i].ypos));
-                Thread.Sleep(8);
-            }
         }
     }
 }

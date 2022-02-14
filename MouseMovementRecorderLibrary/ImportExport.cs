@@ -24,7 +24,7 @@ namespace MouseMovementRecorderLibrary
             Dictionary<string, List<MovementRecord>> result = new Dictionary<string, List<MovementRecord>>();
             foreach (string entry in Directory.GetFiles(movementDirectory))
             {
-                string key = entry.Remove(0, 128);
+                string key = entry.Remove(0, 130);
                 key = key.Remove(key.Length - 5, 5);
                 List<MovementRecord> value = ImportFromFile(key);
                 result[key] = value;
