@@ -11,9 +11,13 @@ namespace MouseMovementRecorderLibrary
     public class MovementRecord
     {
         public List<ScreenPosition> course;
-        public MovementRecord(List<ScreenPosition> inCourse)
+        public int recordedHeight;
+        public int recordedWidth;
+        public MovementRecord(List<ScreenPosition> inCourse, int height, int width)
         {
             this.course = inCourse;
+            this.recordedHeight = height;
+            this.recordedWidth = width;
         }
 
         public ScreenPosition this[int index]

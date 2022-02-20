@@ -1,5 +1,4 @@
-﻿using System;
-using MouseMovementRecorderLibrary;
+﻿using MouseMovementRecorderLibrary;
 
 Console.BackgroundColor = ConsoleColor.DarkBlue;
 Console.Clear();
@@ -46,7 +45,6 @@ while (true)
         Thread.Sleep(2500);
         Environment.Exit(0);
     }
-
 
     while (playIsOn)
     {
